@@ -15,5 +15,5 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
-~$Vimlesh_GitHub_Projects_Summary.pptx
-~$Vimlesh_GitHub_Projects_Summary.docx
+# Ignore all Microsoft Office temporary files
+~$*
