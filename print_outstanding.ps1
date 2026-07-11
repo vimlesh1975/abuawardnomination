@@ -1,8 +1,8 @@
 $ErrorActionPreference = "Stop"
 
 $baseDir = "C:\Users\vimlesh\Documents\vimlesh\abuawardnomination"
-$pptxPath = Join-Path -Path $baseDir -ChildPath "Vimlesh_GitHub_Projects_Summary.pptx"
-$pdfPath = Join-Path -Path $baseDir -ChildPath "Vimlesh_GitHub_Projects_Summary.pdf"
+$pptxPath = Join-Path -Path $baseDir -ChildPath "01_OUTSTANDING WORK.pptx"
+$pdfPath = Join-Path -Path $baseDir -ChildPath "01_OUTSTANDING WORK.pdf"
 
 if (Test-Path $pdfPath) { Remove-Item $pdfPath -Force }
 
