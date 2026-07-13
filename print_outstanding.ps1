@@ -21,7 +21,7 @@ try {
     $pres.PrintOut(1, $pres.Slides.Count, $pdfPath, 1, 0)
     Write-Host "PrintOut succeeded."
 } catch {
-    Write-Host "PrintOut failed: $_"
+    Write-Host "SaveAs PDF failed: $_"
 }
 
 $pres.Close()
